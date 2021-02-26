@@ -1,4 +1,4 @@
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 package:
   name: muq
@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://bitbucket.org/mituq/muq2/downloads/muq_{{ version | replace(".", "_") }}.tar.gz
-  sha256: 676777a09106e44c8b285f6802cbb2777c6799ee905ca82b1d631aa280f298e2
+  sha256: a14b167c0f29fca67839184d8aa8d2da033adc1a8e101f43b139237ad1b15d65
 
 build:
-  number: 3
+  number: 0
   skip: true  # [win]
 
 requirements:
