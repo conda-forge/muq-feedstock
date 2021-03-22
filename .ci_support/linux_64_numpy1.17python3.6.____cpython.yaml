@@ -17,7 +17,7 @@ hdf5:
 nlopt:
 - '2.7'
 numpy:
-- '1.16'
+- '1.17'
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
