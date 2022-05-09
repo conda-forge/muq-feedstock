@@ -9,7 +9,7 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '12'
+- '13'
 hdf5:
 - 1.12.1
 macos_machine:
@@ -17,7 +17,7 @@ macos_machine:
 nlopt:
 - '2.7'
 numpy:
-- '1.18'
+- '1.19'
 pin_run_as_build:
   boost-cpp:
     max_pin: x.x.x
@@ -27,7 +27,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.8.* *_cpython
+- 3.7.* *_cpython
 target_platform:
 - osx-64
 zip_keys:
