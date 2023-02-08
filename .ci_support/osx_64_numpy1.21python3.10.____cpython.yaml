@@ -1,7 +1,7 @@
 MACOSX_DEPLOYMENT_TARGET:
 - '10.9'
 boost_cpp:
-- 1.74.0
+- 1.78.0
 channel_sources:
 - conda-forge
 channel_targets:
@@ -11,7 +11,7 @@ cxx_compiler:
 cxx_compiler_version:
 - '14'
 hdf5:
-- 1.12.2
+- 1.14.0
 macos_machine:
 - x86_64-apple-darwin13.4.0
 nlopt:
@@ -20,8 +20,6 @@ numpy:
 - '1.21'
 pin_run_as_build:
   boost-cpp:
-    max_pin: x.x.x
-  nlopt:
     max_pin: x.x.x
   python:
     min_pin: x.x
