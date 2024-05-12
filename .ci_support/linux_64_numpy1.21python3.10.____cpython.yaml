@@ -1,5 +1,5 @@
 boost_cpp:
-- 1.74.0
+- 1.78.0
 cdt_name:
 - cos6
 channel_sources:
@@ -20,8 +20,6 @@ numpy:
 - '1.21'
 pin_run_as_build:
   boost-cpp:
-    max_pin: x.x.x
-  nlopt:
     max_pin: x.x.x
   python:
     min_pin: x.x
