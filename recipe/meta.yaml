@@ -9,7 +9,7 @@ source:
   sha256: 35e78c425eff8bb8753e494d45a19d670f11e87d8487cd6e1588c07b957e9e09
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
 
 requirements:
@@ -31,10 +31,10 @@ requirements:
     - nlopt
   run:
     - {{ compiler('cxx') }}
+    - {{ stdlib("c") }}
     - cmake
     - make
     - python
-    - {{ pin_compatible('numpy') }}
     - hdf5
     - boost-cpp
     - eigen >=3.3
