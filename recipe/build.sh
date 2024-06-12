@@ -1,7 +1,7 @@
 #!/bin/bash
 
-PYTHON_INCLUDE_DIR=$($PYTHON -c 'import distutils.sysconfig, sys; sys.stdout.write(distutils.sysconfig.get_python_inc())')
-PYTHON_LIBRARY=$($PYTHON -c 'from distutils.sysconfig import get_config_var; import os, sys; sys.stdout.write(os.path.join(get_config_var("LIBDIR"),get_config_var("LDLIBRARY")))')
+PYTHON_INCLUDE_DIR=$($PYTHON -c 'import sysconfig, sys; sys.stdout.write(sysconfig.get_paths()["include"])')
+PYTHON_LIBRARY=$($PYTHON -c 'from sysconfig import get_config_var; import os, sys; sys.stdout.write(os.path.join(get_config_var("LIBDIR"),get_config_var("LDLIBRARY")))')
 
 cd build
 
