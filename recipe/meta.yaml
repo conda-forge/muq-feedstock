@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://bitbucket.org/mituq/muq2/downloads/muq_{{ version | replace(".", "_") }}.tar.gz
-  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  sha256: c616eae0961739c9883bb810df5bf3fa66b148bbadf9e6e5c330a3ad657eb4c4
 
 build:
   number: 0
