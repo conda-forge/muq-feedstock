@@ -13,13 +13,15 @@ channel_targets:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '16'
+- '17'
 hdf5:
-- 1.14.3
+- 1.14.4
+libboost_devel:
+- '1.84'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 nlopt:
-- '2.7'
+- '2.8'
 numpy:
 - '1.22'
 pin_run_as_build:
