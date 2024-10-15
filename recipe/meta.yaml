@@ -9,7 +9,7 @@ source:
   sha256: c616eae0961739c9883bb810df5bf3fa66b148bbadf9e6e5c330a3ad657eb4c4
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
 
 requirements:
@@ -35,7 +35,6 @@ requirements:
     - cmake
     - make
     - python
-    - {{ pin_compatible('numpy') }}
     - hdf5
     - libboost-devel
     - eigen >=3.3
