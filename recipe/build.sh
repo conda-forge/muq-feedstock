@@ -3,6 +3,7 @@
 PYTHON_INCLUDE_DIR=$($PYTHON -c 'import sysconfig, sys; sys.stdout.write(sysconfig.get_paths()["include"])')
 PYTHON_LIBRARY=$($PYTHON -c 'from sysconfig import get_config_var; import os, sys; sys.stdout.write(os.path.join(get_config_var("LIBDIR"),get_config_var("LDLIBRARY")))')
 
+mkdir -p build
 cd build
 
 cmake \
