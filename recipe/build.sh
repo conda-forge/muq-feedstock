@@ -15,7 +15,6 @@ cmake \
     -DBoost_DIR=$PREFIX \
     -DEigen3_DIR=$PREFIX/include \
     -DHDF5_DIR=$PREFIX \
-    -DNANOFLANN_DIR=$PREFIX \
     -DSUNDIALS_DIR=$PREFIX \
     -DNLopt_DIR=$PREFIX \
     -Dnanoflann_DIR=$PREFIX \
