@@ -19,7 +19,7 @@ cmake \
     -DSUNDIALS_DIR=$PREFIX \
     -DNLopt_DIR=$PREFIX \
     -Dnanoflann_DIR=$PREFIX \
-    -Dstanmath_SRC_DIR=$PREFIX/include \
+    -Dstanmath_SRC_DIR=$SRC_DIR/external/math-2.18.0 \
     -DPYTHON_INCLUDE_DIR=$PYTHON_INCLUDE_DIR \
     -DPYTHON_LIBRARY=$PYTHON_LIBRARY \
     -DPYTHON_EXECUTABLE=$PYTHON \

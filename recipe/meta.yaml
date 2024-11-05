@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/NexGenAnalytics/MIT-MUQ/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ea363fa82cab2f2f7dbde81ac69bf064e3e597659e60fa817d6916e399c17611
+  sha256: 309174667814bade37a5b826d08444411b25b0dfc53e98c7350670d90d153568
 
 build:
   number: 0
